@@ -1,0 +1,13 @@
+1627398705259	geckodriver	INFO	Listening on 127.0.0.1:62205
+1627398708315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\siris\\AppData\\Local\\Temp\\rust_mozprofile8uHa7h"
+1627398708729	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\siris\\AppData\\Local\\Temp\\rust_mozprofile8uHa7h\\search.json.mozlz4", (void 0)))
+1627398711584	Marionette	INFO	Listening on port 62213
+1627398712036	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1627398750150	Marionette	INFO	Stopped listening on port 62213
